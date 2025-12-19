@@ -1,1 +1,182 @@
 
+---
+
+## 5. Version Numbering Rules
+
+### A. Major Version (X.0.0)
+Incremented when:
+- Intended clinical use changes
+- Model architecture changes
+- New patient population is introduced
+- Regulatory re-approval is required
+
+**Major versions require full re-validation and approval.**
+
+---
+
+### B. Minor Version (0.X.0)
+Incremented when:
+- Retraining with new datasets
+- Performance optimization without intent change
+- Feature engineering updates
+
+**Minor versions require performance validation and audit review.**
+
+---
+
+### C. Patch Version (0.0.X)
+Incremented when:
+- Bug fixes
+- Non-behavioral code refactoring
+- Infrastructure compatibility updates
+
+**Patch versions require documentation but not full re-validation.**
+
+---
+
+## 6. Mandatory Metadata for Each Version
+
+Every model version MUST record:
+
+- Model name
+- Version number
+- Release date
+- Author / responsible team
+- Intended use
+- Training dataset references
+- Validation dataset references
+- Performance metrics
+- Bias assessment summary
+- Risk classification
+- Approval signatures
+- Deployment environment
+
+No metadata = no deployment.
+
+---
+
+## 7. Training Data Traceability
+
+For each model version:
+- Dataset IDs must be referenced
+- Data source provenance recorded
+- Consent status documented
+- Data preprocessing steps logged
+- Synthetic data usage declared
+
+Training data hashes must be immutable.
+
+---
+
+## 8. Validation & Testing Requirements
+
+Each version must include:
+- Internal validation results
+- External validation (if applicable)
+- Stress testing outcomes
+- Edge-case performance analysis
+- False positive / false negative rates
+
+Validation artifacts must be archived.
+
+---
+
+## 9. Deployment Controls
+
+- Only approved versions may be deployed
+- Active production version must be declared
+- Rollback versions must be identified
+- Shadow testing versions must be labeled
+- Deprecated versions must be blocked from use
+
+Live systems may only reference one active version at a time.
+
+---
+
+## 10. Change Documentation (Model Changelog)
+
+Each version must include a changelog covering:
+- What changed
+- Why it changed
+- Expected impact
+- Known limitations
+- Risk implications
+
+Changelogs must be human-readable and audit-ready.
+
+---
+
+## 11. Model Retirement & Deprecation
+
+A model version must be retired when:
+- Performance degrades beyond thresholds
+- Drift exceeds tolerance
+- Regulatory guidance changes
+- Safer alternatives exist
+
+Retired versions:
+- Cannot be redeployed
+- Must remain archived
+- Must retain audit history
+
+---
+
+## 12. Governance & Approval Flow
+
+### Required Approvals:
+- Technical Lead
+- Compliance Lead
+- Clinical Safety Officer (if applicable)
+- DAO acknowledgment (DeSci models)
+
+No unilateral version releases are permitted.
+
+---
+
+## 13. Incident & Adverse Event Linkage
+
+All reported incidents must reference:
+- Model name
+- Exact version number
+- Deployment context
+
+Version-level traceability is mandatory for root-cause analysis.
+
+---
+
+## 14. Audit & Inspection Readiness
+
+This standard supports:
+- Regulatory inspections
+- Ethics board reviews
+- DAO audits
+- External certifications
+
+Failure to comply constitutes a **deployment violation**.
+
+---
+
+## 15. Regulatory Alignment
+
+Aligned with:
+- ISO/IEC 23053 (AI lifecycle)
+- ISO 14971 (Risk management)
+- FDA GMLP
+- EU AI Act (high-risk systems)
+- ANVISA AI oversight
+- WHO AI governance guidance
+
+---
+
+## 16. Ethical Position
+
+> **A model without a version is an unaccountable system.  
+> An unaccountable system has no place in medicine.**
+
+---
+
+### Status
+**Active – Mandatory for All NeuroGrid AI Systems**
+
+This document supersedes any informal versioning practices.
+
