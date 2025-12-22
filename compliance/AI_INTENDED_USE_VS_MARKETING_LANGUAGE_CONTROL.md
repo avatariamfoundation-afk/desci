@@ -1,4 +1,4 @@
-# AI_INTENDED_USE_VS_MARKETING_LANGUAGE_CONTROL
+# AI_INTENDED_USE_VS_MARKETING_LANGUAGE_CONTROL.md
 Clinical Integrity & Regulatory Safeguard Framework
 
 ---
