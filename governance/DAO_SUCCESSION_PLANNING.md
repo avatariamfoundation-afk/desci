@@ -1,4 +1,4 @@
-# DAO Succession Planning Framework
+# DAO_SUCCESSION_PLANNING_FRAMEWORK
 NeuroGrid-DeSci Governance Layer
 
 ## 1. Purpose
