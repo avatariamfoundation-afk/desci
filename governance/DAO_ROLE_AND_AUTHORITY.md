@@ -1,5 +1,4 @@
-DAO_ROLE_AND_AUTHORITY.md
-Document Status
+# DAO_ROLE_AND_AUTHORITY.md
 
 Classification: Critical Governance Document
 Applies To: NeuroGrid DAO, Clinical AI Infrastructure, DeSci Operations
@@ -8,7 +7,9 @@ Authority Level: Binding
 Review Cycle: Annual or upon governance upgrade
 Custodian: DAO Governance Council
 
-1. Purpose
+---
+
+# 1. Purpose
 
 This document formally defines roles, authority boundaries, decision rights, and accountability structures within the NeuroGrid DAO. Its purpose is to ensure:
 
@@ -20,7 +21,9 @@ Prevention of authority ambiguity, governance capture, or DAO overreach
 
 Auditability and enforceability of DAO decisions
 
-2. Governance Principles
+---
+
+# 2. Governance Principles
 
 The DAO operates under the following non-negotiable principles:
 
@@ -39,7 +42,9 @@ All role actions are logged, attributable, and auditable.
 Regulatory Primacy
 In conflicts between DAO preference and regulatory obligation, regulation prevails.
 
-3. Role Taxonomy Overview
+---
+
+# 3. Role Taxonomy Overview
 
 Roles are divided into four authority domains:
 
@@ -53,7 +58,9 @@ Operational Authority
 
 No individual or entity may simultaneously hold conflicting authority roles.
 
-4. Governance Roles
+---
+
+# 4. Governance Roles
 4.1 DAO Token Holders
 
 Authority:
@@ -106,7 +113,9 @@ Escalate to regulators if required
 
 Veto Power: Yes (Compliance-based only)
 
-5. Clinical Authority Roles
+---
+
+# 5. Clinical Authority Roles
 5.1 Clinical Oversight Board
 
 Authority:
@@ -136,7 +145,9 @@ Override or ignore model recommendations
 Protection Clause:
 No DAO mechanism may penalize clinicians for independent judgment.
 
-6. Scientific & Technical Roles
+---
+
+# 6. Scientific & Technical Roles
 6.1 Model Steward Council
 
 Authority:
@@ -167,7 +178,9 @@ No governance voting rights
 
 No clinical authority
 
-7. Operational Roles
+---
+
+# 7. Operational Roles
 7.1 DAO Operators
 
 Authority:
@@ -192,7 +205,9 @@ Publish transparency reports
 
 Verify role compliance
 
-8. Authority Conflict Resolution
+---
+
+# 8. Authority Conflict Resolution
 
 In the event of authority conflict, the following hierarchy applies:
 
@@ -210,7 +225,9 @@ Operational Execution
 
 DAO votes are automatically invalidated if they violate higher-order authority.
 
-9. Role Assignment & Revocation
+---
+
+# 9. Role Assignment & Revocation
 
 Role assignment requires multi-sig approval
 
@@ -226,7 +243,9 @@ Security compromise
 
 All changes are immutably logged.
 
-10. Audit & Enforcement
+---
+
+# 10. Audit & Enforcement
 
 Role actions are subject to continuous audit
 
@@ -238,7 +257,9 @@ Governance review
 
 Regulatory escalation if required
 
-11. Amendments
+---
+
+# 11. Amendments
 
 This document may only be amended by:
 
@@ -250,7 +271,9 @@ Ratification vote
 
 External regulatory compatibility confirmation
 
-12. Binding Declaration
+---
+
+# 12. Binding Declaration
 
 This document is binding across all DAO layers, smart contracts, operational procedures, and community actions.
 
