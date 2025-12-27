@@ -1,4 +1,4 @@
-# EXTERNAL RESEARCH ACCESS POLICY
+# EXTERNAL_RESEARCH_ACCESS_POLICY.md
 
 ## 1. PURPOSE
 This policy defines the mandatory conditions, controls, and governance requirements under which external researchers may access DeSci repository data, models, or analytical outputs, ensuring scientific collaboration without compromising ethical, regulatory, or security obligations.
