@@ -73,3 +73,121 @@ Before registry anchoring, the following validations are required:
 
 Validations are submitted via **ValidatorModule.sol** and anchored as:
 
+
+Artifacts without required validation **MUST NOT** be registered.
+
+---
+
+## 6. Registry Submission Flow
+
+1. Artifact prepared off-chain
+2. Required validations completed
+3. Validation hash anchored to CORE
+4. DeSci registry submission prepared
+5. Registry record anchored to CORE
+6. Cross-links created (if applicable)
+
+No step may be skipped.
+
+---
+
+## 7. Core Anchoring Rules
+
+All DeSci registry entries must be anchored using:
+
+- `anchorRegistryRecord`
+- `domain = "DESCI"`
+- `recordType = "RESEARCH" | "DATA" | "ANALYSIS" | "DISCLOSURE"`
+
+The registry record hash MUST include:
+- Artifact hash
+- Validation hash references
+- Version identifier
+- Timestamp
+
+---
+
+## 8. Cross-Link Requirements
+
+Cross-links are mandatory when:
+
+- A dataset supports a result
+- A protocol precedes a study
+- A funding source supports research
+- A model evaluation references a dataset
+
+Cross-links must be anchored using:
+
+---
+
+## 9. Versioning and Supersession
+
+DeSci artifacts are **append-only**.
+
+- New versions require new hashes
+- Supersession must be cross-linked
+- Prior versions remain immutable
+
+Deletion is prohibited.  
+Withdrawal is handled via **status annotations**, not erasure.
+
+---
+
+## 10. Access and Visibility
+
+Registry metadata is:
+- Publicly readable
+- Pseudonymized by default
+- Fully auditable
+
+Underlying data access is governed separately by:
+- Consent policies
+- Access agreements
+- Jurisdictional law
+
+---
+
+## 11. Compliance Alignment
+
+This mechanism aligns with:
+
+- EU Open Science principles
+- GDPR / LGPD research exemptions
+- NIH / Horizon reproducibility standards
+- ISO 27001 data governance
+- WHO AI research guidance
+
+---
+
+## 12. Prohibited Actions
+
+The DeSci Registry MAY NOT:
+
+- Register unvalidated artifacts
+- Override validation outcomes
+- Conceal conflicts or funding sources
+- Retroactively modify records
+- Anchor false provenance
+
+Violations constitute a **governance breach**.
+
+---
+
+## 13. Audit and Traceability
+
+Every registry entry must be:
+
+- Timestamped
+- Hash-addressed
+- Validation-linked
+- Cross-referenced
+- Indefinitely auditable
+
+There is no concept of “soft deletion”.
+
+---
+
+### Status
+**Active – Binding DeSci Registry Standard**
+
+
